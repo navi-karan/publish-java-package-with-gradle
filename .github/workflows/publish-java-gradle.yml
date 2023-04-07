@@ -8,12 +8,12 @@
 # To get a newer version, you will need to update the SHA.
 # You can also reference a tag or branch, but the action may change without warning.
 
-name: Publish package to the Github Packages
+name: Publish package to GitHub Packages
 on: push
 jobs:
   publish:
     runs-on: ubuntu-latest
-    permissions: 
+    permissions:
       contents: read
       packages: write
     steps:
